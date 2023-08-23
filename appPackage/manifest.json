@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.14/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.14",
+  "version": "1.0.0",
+  "id": "7ed045a5-849e-41f0-be70-544229035d6f",
+  "packageName": "com.microsoft.teams.extension",
+  "developer": {
+    "name": "Teams App, Inc.",
+    "websiteUrl": "https://aeaa-103-172-86-162.ngrok-free.app",
+    "privacyUrl": "https://aeaa-103-172-86-162.ngrok-free.app/privacy",
+    "termsOfUseUrl": "https://aeaa-103-172-86-162.ngrok-free.app/termsofuse"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Personal Tab with SSO",
+    "full": ""
+  },
+  "description": {
+    "short": "Short description for Personal Tab SSO.",
+    "full": "Full description of Personal Tab SSO."
+  },
+  "accentColor": "#FFFFFF",
+  "staticTabs": [
+    {
+      "entityId": "index",
+      "name": "Personal Tab",
+      "contentUrl": "https://aeaa-103-172-86-162.ngrok-free.app/tab",
+      "websiteUrl": "https://aeaa-103-172-86-162.ngrok-free.app/tab",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "aeaa-103-172-86-162.ngrok-free.app"
+  ],
+  "webApplicationInfo": {
+    "id": "7ed045a5-849e-41f0-be70-544229035d6f",
+    "resource": "api://aeaa-103-172-86-162.ngrok-free.app/7ed045a5-849e-41f0-be70-544229035d6f"
+  }
+}
